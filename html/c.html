@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户资料修改页面</title>
+</head>
+<body>
+<from name="usermodify" action="#" method="post">
+    <table border="1" bordercolor="#B3B6EE" width="60%" align="center" height="350" cellpading="0" cellspacing="0">
+        <caption><h2>用户资料修改页面</h2></caption>
+        <tr>
+            <th width="40%" align="right">真实姓名：</th>
+            <td width="60%">
+                <input name-"realname" type="text"/>
+            </td>
+        </tr>
+        <tr>
+            <th align="right">密码：</th>
+            <td><input name="pass" type="password"/></td>
+        </tr>
+        <tr>
+            <th align="right">性别：</th>
+            <td>
+                <input name="gender" type="radio"/>男
+                <input name="gender" type="radio" checked="checked"/>女
+            </td>
+        </tr>
+        <tr>
+            <th align="right">兴趣爱好：</th>
+            <td>
+                <input type="checkbox" name="sing" value="唱歌"/>唱歌
+                <input type="checkbox" name="sing" value="跳舞"/>跳舞
+                <input type="checkbox" name="sing" value="画画"/>画画
+                <input type="checkbox" name="sing" value="爬山"/>爬山
+            </td>
+        </tr>
+        <tr>
+            <th align="right">民族</th>
+            <td>
+                <select>
+                    <option>汉族</option>
+                    <option>蒙古族</option>
+                    <option>维吾尔族</option>
+                    <option>其他民族</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="修改">
+                <input type="reset" value="重置"
+            </td>
+        </tr>
+    </table>  
+</from>
+</body>
+</html>
